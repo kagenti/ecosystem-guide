@@ -1,5 +1,5 @@
 site_name: Kagenti Ecosystem Guide
-site_description: The open source ecosystem for building, deploying, securing, and governing AI agents on Kubernetes.
+site_url: https://pages.github.ibm.com/Jenna-Winkler/ecosystem-guide/
 
 theme:
   name: material
@@ -7,14 +7,11 @@ theme:
   favicon: assets/logo.svg
   palette:
     - scheme: default
-      primary: custom
-      accent: custom
+      primary: white
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: custom
-      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -35,10 +32,8 @@ markdown_extensions:
   - toc:
       permalink: true
 
-extra_css:
-  - stylesheets/extra.css
-
-docs_dir: docs
+docs_dir: content
+site_dir: docs
 
 nav:
   - Home: README.md
