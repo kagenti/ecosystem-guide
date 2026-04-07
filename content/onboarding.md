@@ -17,6 +17,8 @@ See [Meetings](meetings.md) for the full schedule.
 
 Browse the [Workstreams](workstreams/README.md) to see what's actively being built and find where your interest and expertise fit. Each workstream lists its core contributors — reach out to them directly or join the relevant Slack channel.
 
+Read the [Contributing Guide](https://github.com/kagenti/kagenti/blob/main/CONTRIBUTING.md) before submitting your first PR.
+
 ## Commit Policy
 
 AI-assisted commits use **`Assisted-by:`** tag (not `Co-Authored-by:`). Setup instructions:

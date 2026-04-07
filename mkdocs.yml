@@ -36,8 +36,9 @@ docs_dir: content
 site_dir: docs
 
 nav:
-  - Home: README.md
-  - About: about.md
+  - Overview:
+    - Welcome: README.md
+    - About Kagenti: about.md
   - Planning:
     - Key Dates: key-dates.md
     - Goals & OKRs: goals.md

@@ -1,6 +1,6 @@
-# Kagenti Ecosystem Guide
+# Welcome to the Kagenti Ecosystem Guide
 
-The open source ecosystem for building, deploying, securing, and governing AI agents on Kubernetes. This is the central reference for the Kagenti ecosystem.
+Your central reference for the Kagenti open source ecosystem — what's being built, who's working on it, and how to get involved.
 
 ## Start here
 
