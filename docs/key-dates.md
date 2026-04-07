@@ -4,9 +4,9 @@
 
 | Date | Event | Notes |
 |------|-------|-------|
-| **Apr 15, 2026** | Red Hat Summit Code Freeze | Operator + Webhook, AuthBridge (Mariusz), Kuadrant (Rong Chang) |
-| **May 11-14, 2026** | Red Hat Summit | Denver, CO |
-| **Nov 9-12, 2026** | KubeCon + CloudNativeCon NA | |
+| Apr 15, 2026 | Red Hat Summit Code Freeze | Operator + Webhook, AuthBridge (Mariusz), Kuadrant (Rong Chang) |
+| May 11-14, 2026 | Red Hat Summit | Denver, CO |
+| Nov 9-12, 2026 | KubeCon + CloudNativeCon NA | |
 
 ## Past
 

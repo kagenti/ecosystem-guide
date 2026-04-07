@@ -1,0 +1,55 @@
+site_name: Kagenti Ecosystem Guide
+site_description: The open source ecosystem for building, deploying, securing, and governing AI agents on Kubernetes.
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Red Hat Text
+    code: Red Hat Mono
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+docs_dir: docs
+
+nav:
+  - Home: README.md
+  - About: about.md
+  - Planning:
+    - Key Dates: key-dates.md
+    - Goals & OKRs: goals.md
+  - Project:
+    - Workstreams: workstreams/README.md
+    - Meetings: meetings.md
+  - Community:
+    - Onboarding: onboarding.md
+    - Content: content.md
+    - Resources: resources.md
