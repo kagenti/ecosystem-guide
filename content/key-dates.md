@@ -14,4 +14,3 @@
 |------|-------|-------|
 | Mar 2026 | KubeCon EU | Kagenti cited for solving agent identity problem. Talks + demos |
 | Nov 2025 | KubeCon + CloudNativeCon NA | "Who Let the Agents Out?" talk, "Build-a-Bot" SPIRE+MCP tutorial, IBM booth #700 |
-| May 2025 | kagent accepted as CNCF Sandbox project | |
