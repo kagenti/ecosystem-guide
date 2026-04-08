@@ -39,12 +39,12 @@ nav:
   - Overview:
     - Welcome: README.md
     - About Kagenti: about.md
+    - Use Cases & Personas: use-cases.md
   - Planning:
     - Key Dates: key-dates.md
     - Goals & OKRs: goals.md
   - Project:
     - Workstreams: workstreams/README.md
-    - Meetings: meetings.md
   - Community:
     - Onboarding: onboarding.md
     - Content: content.md
