@@ -2,7 +2,7 @@
 
 Your central reference for the Kagenti open source ecosystem — what's being built, who it's for, and how to get involved.
 
-👉 **[Launch the site →](https://pages.github.ibm.com/Jenna-Winkler/ecosystem-guide/)**
+👉 **[Launch the site →](https://pages.github.ibm.com/kagenti/ecosystem-guide/)**
 
 ---
 
