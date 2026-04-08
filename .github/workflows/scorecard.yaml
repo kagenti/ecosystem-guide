@@ -1,0 +1,64 @@
+# OpenSSF Scorecard - Security health metrics for Open Source
+#
+# Measures repository security posture and provides recommendations.
+# Results are uploaded to GitHub Security tab and OpenSSF Scorecard API.
+#
+# Triggers:
+# - schedule/push: Full analysis with result publishing to OpenSSF API
+# - pull_request: Analysis only — catches Dangerous-Workflow (script
+#   injection) before merge. Publishing disabled (no OIDC on PRs).
+#
+# Reference: https://securityscorecards.dev/
+#
+name: OpenSSF Scorecard
+
+on:
+  # Run weekly on Monday at 6 AM UTC
+  schedule:
+    - cron: '0 6 * * 1'
+  # Run on push to main
+  push:
+    branches: [main]
+  # Run on PRs to catch Dangerous-Workflow before merge
+  pull_request:
+    branches: [main]
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Deny all permissions at workflow level; the job declares only what it needs
+permissions: {}
+
+jobs:
+  scorecard:
+    name: Scorecard Analysis
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write  # Upload SARIF to Security tab
+      id-token: write         # OIDC token for result verification
+      contents: read          # Read repository contents
+      actions: read           # Read workflow runs
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6
+        with:
+          persist-credentials: false
+
+      - name: Run Scorecard
+        uses: ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a  # v2.4.3
+        with:
+          results_file: scorecard.sarif
+          results_format: sarif
+          # Only publish to OpenSSF API on push/schedule (not PRs — no OIDC token)
+          publish_results: ${{ github.event_name != 'pull_request' }}
+
+      - name: Upload SARIF to Security tab
+        uses: github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13  # v4
+        with:
+          sarif_file: scorecard.sarif
+
+      - name: Upload Scorecard results as artifact
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f  # v7.0.0
+        with:
+          name: scorecard-results
+          path: scorecard.sarif
+          retention-days: 30

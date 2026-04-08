@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # GitHub Actions — keep workflow actions up to date
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    labels:
+      - dependencies
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
