@@ -11,7 +11,7 @@ Guide for new contributors joining the Kagenti ecosystem.
 ## 2. Explore the Project
 
 - **[About Kagenti](about.md)** — What the project is and what it covers
-- **[Workstreams](workstreams/README.md)** — Active areas of development, each with its own scope and contributors
+- **[Workstreams](workstreams.md)** — Active areas of development, each with its own scope and contributors
 - **[Use Cases & Personas](use-cases.md)** — Who the platform serves and what problems it solves
 - **[Kagenti Issue Prioritization](https://github.com/orgs/kagenti/projects/8)** — Current priorities and open issues
 

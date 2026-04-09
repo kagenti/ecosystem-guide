@@ -7,7 +7,7 @@ Your central reference for the Kagenti open source ecosystem — what's being bu
 - **[About Kagenti](about.md)** — What the project is, why it exists, and how the ecosystem fits together
 - **[Use Cases & Personas](use-cases.md)** — Who the platform serves and what problems it solves
 - **[Onboarding](onboarding.md)** — How to join the community and start contributing
-- **[Workstreams](workstreams/README.md)** — All active work areas with contributors and status
+- **[Workstreams](workstreams.md)** — All active work areas with contributors and status
 
 ## Reference
 
