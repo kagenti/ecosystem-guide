@@ -28,4 +28,4 @@ This is the same gap Kubernetes filled for containers a decade ago. Agents are t
 
 The community ships weekly, publishes on [Medium](https://medium.com/kagenti-the-agentic-platform), and has presented at KubeCon NA 2025, KubeCon EU 2026, and The Cloudcast podcast.
 
-See [Content](content.md) for the full list of blogs, demos, and coverage.
+See [Blogs](blogs.md) for the full list of blogs, demos, and coverage.

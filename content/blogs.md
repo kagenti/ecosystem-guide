@@ -1,11 +1,10 @@
-# Content
+# Blogs
 
-## Blogs
-
-| Date | Title | Authors |
-|------|-------|---------|
+| Date | Title | Authors / Source |
+|------|-------|-----------------|
 | Apr 2026 | [Deploying agents with Red Hat AI: The curious case of OpenClaw](https://developers.redhat.com/articles/2026/04/14/deploying-agents-red-hat-ai-openclaw) | Nati Fridman, Sally O'Malley, Adel Zaalouk |
 | Mar 2026 | [Operationalizing "Bring Your Own Agent" on Red Hat AI, the OpenClaw Edition](https://www.redhat.com/en/blog/operationalizing-bring-your-own-agent-red-hat-ai-openclaw-edition) | Adel Zaalouk |
+| Mar 2026 | [Kagenti - A Kubernetes Control Plane for AI Agents](https://www.thecloudcast.net/2026/03/kagenti-kubernetes-control-plane-for-ai.html) | The Cloudcast |
 | Mar 2026 | [Using containers to bring software engineering rigor to AI workloads](https://www.redhat.com/en/blog/using-containers-bring-software-engineering-rigor-ai-workloads) | Ann Marie Fred |
 | Mar 2026 | [Zero trust AI agents on Kubernetes](https://next.redhat.com/2026/03/05/zero-trust-ai-agents-on-kubernetes-what-i-learned-deploying-multi-agent-systems-on-kagenti/) | Roy Belio |
 | Dec 2025 | [Advanced authentication and authorization for MCP Gateway](https://developers.redhat.com/articles/2025/12/12/advanced-authentication-authorization-mcp-gateway) | Guilherme Cassolato |
@@ -22,9 +21,3 @@
 ## Demos
 
 TBD
-
-## External Coverage
-
-| Date | Title | Source |
-|------|-------|--------|
-| Mar 2026 | [Kagenti - A Kubernetes Control Plane for AI Agents](https://www.thecloudcast.net/2026/03/kagenti-kubernetes-control-plane-for-ai.html) | The Cloudcast |
