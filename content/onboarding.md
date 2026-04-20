@@ -20,4 +20,3 @@ Guide for new contributors joining the Kagenti ecosystem.
 2. Pick a workstream that matches your interest and expertise
 3. Look for issues labeled `good first issue` or `help wanted` on the relevant repo
 4. Fork, branch, and open a PR
-

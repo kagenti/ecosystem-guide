@@ -4,8 +4,11 @@
 
 | Date | Title | Authors |
 |------|-------|---------|
+| Apr 2026 | [Deploying agents with Red Hat AI: The curious case of OpenClaw](https://developers.redhat.com/articles/2026/04/14/deploying-agents-red-hat-ai-openclaw) | Nati Fridman, Sally O'Malley, Adel Zaalouk |
+| Mar 2026 | [Operationalizing "Bring Your Own Agent" on Red Hat AI, the OpenClaw Edition](https://www.redhat.com/en/blog/operationalizing-bring-your-own-agent-red-hat-ai-openclaw-edition) | Adel Zaalouk |
 | Mar 2026 | [Using containers to bring software engineering rigor to AI workloads](https://www.redhat.com/en/blog/using-containers-bring-software-engineering-rigor-ai-workloads) | Ann Marie Fred |
 | Mar 2026 | [Zero trust AI agents on Kubernetes](https://next.redhat.com/2026/03/05/zero-trust-ai-agents-on-kubernetes-what-i-learned-deploying-multi-agent-systems-on-kagenti/) | Roy Belio |
+| Dec 2025 | [Advanced authentication and authorization for MCP Gateway](https://developers.redhat.com/articles/2025/12/12/advanced-authentication-authorization-mcp-gateway) | Guilherme Cassolato |
 | Dec 2025 | [Developer Guide: Building a Cloud-Native Agent for Kagenti](https://medium.com/kagenti-the-agentic-platform/developer-guide-building-a-cloud-native-agent-for-kagenti-5bd0dc4dc2fd) | Peter Zhao |
 | Nov 2025 | [Hands-On with MCP Gateway](https://medium.com/kagenti-the-agentic-platform/hands-on-with-mcp-gateway-from-local-setup-to-agent-integration-in-kagenti-f9bd3b7cc334) | Hai Huang |
 | Nov 2025 | [Introducing MCP-Gateway in Kagenti](https://medium.com/kagenti-the-agentic-platform/introducing-mcp-gateway-in-kagenti-a-unified-front-door-for-your-mcp-servers-28db5b6ef62d) | Ed Snible, Hai Huang |

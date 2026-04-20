@@ -21,7 +21,7 @@ Paolo Dettori, Mariusz Sabath
 | Installer | Kagenti installer (helm, ansible) | **Paolo Dettori** | Active |
 | Intent Based Access Control | Intent based access control | **Hai Huang** | Early Stage |
 | Keycloak | Identity and Access Managment | **Alan Cha**, Maia Iyer | Active |
-| MCP Gateway | Unified front door for MCP servers — tool routing, auth, token exchange | **Hai Huangg**, Ed Snible | Active |
+| MCP Gateway | Unified front door for MCP servers — tool routing, auth, token exchange | **Hai Huang**, Ed Snible | Active |
 | Memory | Persistent agent memory — long-term vision, no active plan yet | TBD | Early Stage |
 | Metrics and Measurements | Innovative technical and security metrics | **Kelly Abuelsaad** | New |
 | Network Security | Secure network architecture | **Hai Huang** | Early Stage |
