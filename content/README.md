@@ -11,5 +11,5 @@ Your central reference for the Kagenti open source ecosystem — what's being bu
 ## Reference
 
 - [Key Dates](key-dates.md) — Milestones and events
-- [Blogs](blogs.md) — Blogs, demos, and press coverage
+- [Content](content.md) — Blogs, demos, and press coverage
 - [Resources](resources.md) — Links and community channels
