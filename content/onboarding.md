@@ -5,7 +5,7 @@ Guide for new contributors joining the Kagenti ecosystem.
 ## 1. Join the Community
 
 - **GitHub** — Browse the [kagenti org](https://github.com/kagenti/) and fork any repo to start contributing
-- **Discord** — [Join the community](https://discord.gg/aJ92dNDzqB) for real-time discussion
+- **Slack** — [Join the community](https://ibm.biz/kagenti-slack) for real-time discussion
 - **Google Group** — Join [kagenti-contributors](https://groups.google.com/g/kagenti-contributors) for shared docs and announcements
 
 ## 2. Explore the Project
