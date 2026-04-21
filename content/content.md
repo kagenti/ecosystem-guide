@@ -17,7 +17,3 @@
 | Jun 2025 | [Security in and around MCP: Part 1 — OAuth in MCP](https://medium.com/kagenti-the-agentic-platform/security-in-and-around-mcp-part-1-oauth-in-mcp-3f15fed0dd6e) | Maia Iyer, Mariusz Sabath, Alan Cha, Hai Huang, Paolo Dettori, James Cadden, Jarek Cwiklik | Medium | Blog |
 | Jun 2025 | [Identity in Agentic Platforms](https://medium.com/kagenti-the-agentic-platform/identity-in-agentic-platforms-enabling-secure-least-privilege-access-996527f1c983) | Mariusz Sabath, Paolo Dettori, Maia Iyer, Alan Cha, Hai Huang, Jarek Cwiklik | Medium | Blog |
 | May 2025 | [Toward a Cloud-Native Platform for AI Agents](https://medium.com/kagenti-the-agentic-platform/toward-a-cloud-native-platform-for-ai-agents-70081f15316d) | Paolo Dettori, Alan Cha, Hai Huang, Jarek Cwiklik, Maia Iyer, Mariusz Sabath | Medium | Blog |
-
-## Demos
-
-TBD
