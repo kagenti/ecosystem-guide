@@ -8,13 +8,17 @@ Guide for new contributors joining the Kagenti ecosystem.
 - **Slack** — [Join the community](https://ibm.biz/kagenti-slack) for real-time discussion
 - **Google Group** — Join [kagenti-contributors](https://groups.google.com/g/kagenti-contributors) for shared docs and announcements
 
-## 2. Explore the Project
+## 2. Join the Community Calendar
+
+- Add the [Kagenti community calendar](https://calendar.google.com/calendar/embed?src=kagenti%40kagenti.io&ctz=America%2FNew_York) for biweekly community meetings
+
+## 3. Explore the Project
 
 - **[About Kagenti](about.md)** — What the project is and what it covers
 - **[Workstreams](workstreams.md)** — Active areas of development, each with its own scope and contributors
 - **[Kagenti Issue Prioritization](https://github.com/orgs/kagenti/projects/8)** — Current priorities and open issues
 
-## 3. Start Contributing
+## 4. Start Contributing
 
 1. Read the [Contributing Guide](https://github.com/kagenti/kagenti/blob/main/CONTRIBUTING.md)
 2. Pick a workstream that matches your interest and expertise
