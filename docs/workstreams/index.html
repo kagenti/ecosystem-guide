@@ -499,24 +499,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Workstreams
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -533,47 +515,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#project-technical-leads" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Project Technical Leads
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#workstreams_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Workstreams
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -750,36 +691,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#project-technical-leads" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Project Technical Leads
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#workstreams_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Workstreams
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -796,174 +707,94 @@
 
 
 <h1 id="workstreams">Workstreams<a class="headerlink" href="#workstreams" title="Permanent link">&para;</a></h1>
-<h2 id="project-technical-leads">Project Technical Leads<a class="headerlink" href="#project-technical-leads" title="Permanent link">&para;</a></h2>
-<p>Paolo Dettori, Mariusz Sabath</p>
-<h2 id="workstreams_1">Workstreams<a class="headerlink" href="#workstreams_1" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Workstream</th>
 <th>What it is</th>
 <th>Leaders and Core Contributors</th>
-<th>Status</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>ADK</td>
-<td>Developer toolkit for building and deploying agents — CLI, SDKs, local dev environment</td>
-<td><strong>Jenna Winkler</strong>, Matous Havlena, Tomas Weiss + team</td>
-<td>Active</td>
-</tr>
-<tr>
 <td>Agent Lifecycle Management</td>
-<td>Managing agent lifecycle on the platform via the operator</td>
+<td>Managing agent lifecycle on the platform via the operator — deploy, hibernate, wake, scale</td>
 <td><strong>Jarek Cwiklik</strong>, Paolo Dettori</td>
-<td>Active</td>
 </tr>
 <tr>
 <td>Agent Runtime</td>
-<td>Agent runtime, Proxy</td>
+<td>Agent runtime, proxy</td>
 <td><strong>Hai Huang</strong>, Ed Snible</td>
-<td>Active</td>
 </tr>
 <tr>
 <td>Audit Trail</td>
-<td>Security audit trail</td>
+<td>Security audit trail — full record of autonomous agent actions for compliance</td>
 <td><strong>Parul Singh</strong></td>
-<td>Early Stage</td>
 </tr>
 <tr>
 <td>Authorization and Policy Management</td>
-<td>Architecting policy management solutions</td>
+<td>Scoped permissions with runtime policy enforcement that limit what an agent can do</td>
 <td><strong>Rong Chang</strong>, Maia Iyer, Alan Cha, Hai Huang</td>
-<td>Early Stage</td>
-</tr>
-<tr>
-<td>Automation</td>
-<td>CI/CD, testing automation, and developer workflow tooling, Clawgenti, CVE, testing</td>
-<td><strong>Jim Cadden</strong>, Gloire Rubambiza, Aleksander Slominski, Ladislav Smola</td>
-<td>Active</td>
 </tr>
 <tr>
 <td>Benchmarking</td>
 <td>Agent benchmarking and test infrastructure</td>
 <td><strong>Kelly Abuelsaad</strong></td>
-<td>Active</td>
-</tr>
-<tr>
-<td>Community Outreach</td>
-<td>Community metrics, activities, and outreach</td>
-<td><strong>Jenna Winkler, Alan Cha</strong></td>
-<td>New</td>
-</tr>
-<tr>
-<td>Documentation, user experience, usability</td>
-<td>User experience and usability</td>
-<td><strong>Justin MacNair</strong></td>
-<td>New</td>
 </tr>
 <tr>
 <td>Guardrails</td>
-<td>Guardrails architecture</td>
+<td>Content safety and compliance policies for agents making autonomous decisions</td>
 <td><strong>Evaline Ju</strong></td>
-<td>Active</td>
 </tr>
 <tr>
-<td>Installer</td>
-<td>Kagenti installer (helm, ansible)</td>
-<td><strong>Paolo Dettori</strong></td>
-<td>Active</td>
+<td>Humr</td>
+<td>Exploration of autonomous harness agent requirements — Kubernetes runtime for always-on, self-modifying agents</td>
+<td><strong>Jenna Winkler</strong>, Matous Havlena, Tomas Weiss</td>
+</tr>
+<tr>
+<td>Identity Management (Keycloak)</td>
+<td>Identity and access management</td>
+<td><strong>Alan Cha</strong>, Maia Iyer</td>
 </tr>
 <tr>
 <td>Intent Based Access Control</td>
 <td>Intent based access control</td>
 <td><strong>Hai Huang</strong></td>
-<td>Early Stage</td>
-</tr>
-<tr>
-<td>Keycloak</td>
-<td>Identity and Access Managment</td>
-<td><strong>Alan Cha</strong>, Maia Iyer</td>
-<td>Active</td>
 </tr>
 <tr>
 <td>MCP Gateway</td>
 <td>Unified front door for MCP servers — tool routing, auth, token exchange</td>
 <td><strong>Hai Huang</strong>, Ed Snible</td>
-<td>Active</td>
-</tr>
-<tr>
-<td>Memory</td>
-<td>Persistent agent memory — long-term vision, no active plan yet</td>
-<td>TBD</td>
-<td>Early Stage</td>
-</tr>
-<tr>
-<td>Metrics and Measurements</td>
-<td>Innovative technical and security metrics</td>
-<td><strong>Kelly Abuelsaad</strong></td>
-<td>New</td>
 </tr>
 <tr>
 <td>Network Security</td>
-<td>Secure network architecture</td>
+<td>Secure network architecture and isolation between agents and external systems</td>
 <td><strong>Hai Huang</strong></td>
-<td>Early Stage</td>
 </tr>
 <tr>
 <td>Observability &amp; Token Cost Management</td>
 <td>Tracing, token cost attribution, and auto-instrumentation</td>
 <td><strong>Evaline Ju</strong>, Ilya Kolchinsky</td>
-<td>Active</td>
 </tr>
 <tr>
 <td>Resiliency &amp; Consistency</td>
 <td>Ensuring environment consistency and preventing corruption from agent actions, inconsistent states</td>
 <td><strong>Sahil Suneja</strong></td>
-<td>Early Stage</td>
 </tr>
 <tr>
 <td>Sandboxing</td>
-<td>Safe execution environments for code dev, AI-generated code, and MCP tools</td>
+<td>Isolated execution environments for code dev, AI-generated code, and MCP tools</td>
 <td><strong>Ladislav Smola</strong></td>
-<td>Active</td>
 </tr>
 <tr>
-<td>State Management (Agent)</td>
-<td>State, Context, and Session Managment for Agents</td>
+<td>State Management</td>
+<td>State, context, and session management — persistent state so agents retain memory across restarts and sessions</td>
 <td><strong>Maia Iyer</strong>, Evaline Ju, Alan Cha, Kelly Abuelsaad</td>
-<td>New</td>
-</tr>
-<tr>
-<td>Release Management</td>
-<td>Kagenti release and versioning</td>
-<td><strong>Jenna Winkler</strong></td>
-<td>Early Stage</td>
-</tr>
-<tr>
-<td>UI &amp; Backend API</td>
-<td>User Interface and API</td>
-<td><strong>Paolo Dettori</strong></td>
-<td>Active</td>
-</tr>
-<tr>
-<td>Videos, tutorials, and demo</td>
-<td>Project videos and demos</td>
-<td><strong>Alan Cha</strong></td>
-<td>Early Stage</td>
-</tr>
-<tr>
-<td>Website</td>
-<td>Kagenti.io webmaster</td>
-<td><strong>Justin MacNair</strong></td>
-<td>Early Stage</td>
 </tr>
 <tr>
 <td>Workload Identity and Security</td>
-<td>Zero-trust auth and identity management for agents, tools, and users</td>
+<td>Zero-trust auth and identity management for agents, tools, and users — cryptographic workload identity via SPIFFE/SPIRE</td>
 <td><strong>Mariusz Sabath</strong>, Maia Iyer, Alan Cha, Morgan Foster, Akram Ben Aissi</td>
-<td>Active</td>
 </tr>
 </tbody>
 </table>

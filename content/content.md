@@ -2,10 +2,12 @@
 
 | Date | Title | Authors | Source | Type |
 |------|-------|---------|--------|------|
+| Apr 2026 | [The AI-Native Pivot: What KubeCon Amsterdam 2026 Taught Me About Production Infrastructure](https://medium.com/@osw.gom89/the-ai-native-pivot-what-kubecon-amsterdam-2026-taught-me-about-production-infrastructure-e5fd438c1244) | Oswaldo Gomez | Medium | Blog |
 | Apr 2026 | [Deploying agents with Red Hat AI: The curious case of OpenClaw](https://developers.redhat.com/articles/2026/04/14/deploying-agents-red-hat-ai-openclaw) | Nati Fridman, Sally O'Malley, Adel Zaalouk | Red Hat Developer | Blog |
 | Mar 2026 | [Operationalizing "Bring Your Own Agent" on Red Hat AI, the OpenClaw Edition](https://www.redhat.com/en/blog/operationalizing-bring-your-own-agent-red-hat-ai-openclaw-edition) | Adel Zaalouk | Red Hat Blog | Blog |
 | Mar 2026 | [Kagenti - A Kubernetes Control Plane for AI Agents](https://www.thecloudcast.net/2026/03/kagenti-kubernetes-control-plane-for-ai.html) | Morgan Foster | The Reasoning Show | Podcast |
 | Mar 2026 | [Using containers to bring software engineering rigor to AI workloads](https://www.redhat.com/en/blog/using-containers-bring-software-engineering-rigor-ai-workloads) | Ann Marie Fred | Red Hat Blog | Blog |
+| Feb 2026 | [Don't Teach Your Agents Karate](https://adelzaalouk.me/2026/Feb/22/agent-access-control-zero-code-security/) | Adel Zaalouk | adelzaalouk.me | Blog |
 | Mar 2026 | [Zero trust AI agents on Kubernetes](https://next.redhat.com/2026/03/05/zero-trust-ai-agents-on-kubernetes-what-i-learned-deploying-multi-agent-systems-on-kagenti/) | Roy Belio | Red Hat Emerging Technologies | Blog |
 | Dec 2025 | [Advanced authentication and authorization for MCP Gateway](https://developers.redhat.com/articles/2025/12/12/advanced-authentication-authorization-mcp-gateway) | Guilherme Cassolato | Red Hat Developer | Blog |
 | Dec 2025 | [Developer Guide: Building a Cloud-Native Agent for Kagenti](https://medium.com/kagenti-the-agentic-platform/developer-guide-building-a-cloud-native-agent-for-kagenti-5bd0dc4dc2fd) | Peter Zhao | Medium | Blog |

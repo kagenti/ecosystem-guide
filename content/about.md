@@ -1,18 +1,45 @@
 # About Kagenti
 
-Kagenti is an open source ecosystem for building, deploying, securing, and governing AI agents on Kubernetes. It spans the full agent lifecycle — from local development and testing, through production deployment, to runtime security and observability.
-
-It's framework-neutral: agents built with LangGraph, CrewAI, AG2, AutoGen, or any A2A-compatible framework all run on Kagenti. Communication uses open standards — A2A (Agent-to-Agent protocol) and MCP (Model Context Protocol) — so teams aren't locked into any vendor's stack.
+Kagenti is an open source platform for deploying and governing AI agents on Kubernetes. It's framework-neutral — agents built with LangGraph, CrewAI, AG2, AutoGen, or any A2A-compatible framework all run on Kagenti. Communication uses open standards (A2A and MCP) so teams aren't locked into any vendor's stack.
 
 The project started in early 2025 out of IBM Research with deep collaboration from Red Hat, and has grown to 12 repos, 43 org members, and 80+ contributors across both organizations.
 
+## Where we're headed
+
+Agents are changing. The tools developers reach for daily — Claude Code, Codex, OpenClaw — run continuously, rewrite their own files, and act without being asked. Kagenti's direction is the **secure deployment of autonomous agents on Kubernetes**.
+
+The goal is a platform where always-on, self-modifying agents can run on your own infrastructure with real identity, governance, and isolation. Even companies using cloud-hosted agents will have workloads that can't leave their network — agents touching internal databases, proprietary code, secrets, internal APIs. Kagenti is intended to be where those agents run.
+
 ## The Problem
 
-Every major tech company is building AI agents. Frameworks and harnesses for creating them are maturing fast. But there is no mature, widely adopted ecosystem designed to take agents from development to production. No standard way to build them, deploy them, secure their identities, govern what they can access, or observe what they're doing at scale.
+Frameworks and harnesses for building agents are maturing fast. But there is no widely adopted platform that gives you identity, governance, sandboxing, and audit for agents on Kubernetes — especially autonomous ones that make their own decisions and run unsupervised.
 
-This is the same gap Kubernetes filled for containers a decade ago. Agents are the new workload, and they need their own ecosystem — before enterprises start deploying them without one.
+This is the same gap Kubernetes filled for containers a decade ago. Agents are the new workload.
 
-## What the Ecosystem Covers
+## Who it's for
+
+**Platform Engineer** — "People are deploying agents. I need to govern them." They need to enforce safety policies, scope permissions, audit what agents do, and isolate tenants.
+
+**AI Engineer** — "I have an agent and I need to run it securely." Their agent needs to touch internal systems that can't leave their network, and cloud platforms can't give them the identity, governance, and audit their company requires.
+
+## Differentiating capabilities
+
+What Kagenti is building toward:
+
+| Capability | What it solves |
+|------------|---------------|
+| **Workload Identity** | Cryptographic identity for agents via SPIFFE/SPIRE, not just API keys |
+| **Tool Governance** | Deterministic filtering between agents and external services, with audit trails and human-in-the-loop approval |
+| **Guardrails Enforcement** | Content safety and compliance policies for agents making autonomous decisions |
+| **Sandboxing** | Isolated execution environments for agents running arbitrary code |
+| **Authorization & Policy** | Scoped permissions with runtime policy enforcement |
+| **Audit Trail** | Full record of agent actions for compliance |
+| **Workspace Isolation** | Multi-tenant filesystem isolation for self-modifying agents |
+| **State Management** | Persistent state and session management across restarts |
+| **Agent Trust** | Signed agent cards, attestation of capabilities |
+| **Skills Governance** | Skills as versioned, signed, governed artifacts |
+
+## What the ecosystem covers today
 
 | Area | What it does |
 |------|-------------|

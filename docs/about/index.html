@@ -376,6 +376,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#where-were-headed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where we're headed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-problem" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -387,10 +398,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-the-ecosystem-covers" class="md-nav__link">
+  <a href="#who-its-for" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What the Ecosystem Covers
+        Who it's for
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#differentiating-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Differentiating capabilities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-the-ecosystem-covers-today" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the ecosystem covers today
       
     </span>
   </a>
@@ -768,6 +801,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#where-were-headed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where we're headed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-problem" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -779,10 +823,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-the-ecosystem-covers" class="md-nav__link">
+  <a href="#who-its-for" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What the Ecosystem Covers
+        Who it's for
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#differentiating-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Differentiating capabilities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-the-ecosystem-covers-today" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the ecosystem covers today
       
     </span>
   </a>
@@ -818,13 +884,70 @@
 
 
 <h1 id="about-kagenti">About Kagenti<a class="headerlink" href="#about-kagenti" title="Permanent link">&para;</a></h1>
-<p>Kagenti is an open source ecosystem for building, deploying, securing, and governing AI agents on Kubernetes. It spans the full agent lifecycle — from local development and testing, through production deployment, to runtime security and observability.</p>
-<p>It's framework-neutral: agents built with LangGraph, CrewAI, AG2, AutoGen, or any A2A-compatible framework all run on Kagenti. Communication uses open standards — A2A (Agent-to-Agent protocol) and MCP (Model Context Protocol) — so teams aren't locked into any vendor's stack.</p>
+<p>Kagenti is an open source platform for deploying and governing AI agents on Kubernetes. It's framework-neutral — agents built with LangGraph, CrewAI, AG2, AutoGen, or any A2A-compatible framework all run on Kagenti. Communication uses open standards (A2A and MCP) so teams aren't locked into any vendor's stack.</p>
 <p>The project started in early 2025 out of IBM Research with deep collaboration from Red Hat, and has grown to 12 repos, 43 org members, and 80+ contributors across both organizations.</p>
+<h2 id="where-were-headed">Where we're headed<a class="headerlink" href="#where-were-headed" title="Permanent link">&para;</a></h2>
+<p>Agents are changing. The tools developers reach for daily — Claude Code, Codex, OpenClaw — run continuously, rewrite their own files, and act without being asked. Kagenti's direction is the <strong>secure deployment of autonomous agents on Kubernetes</strong>.</p>
+<p>The goal is a platform where always-on, self-modifying agents can run on your own infrastructure with real identity, governance, and isolation. Even companies using cloud-hosted agents will have workloads that can't leave their network — agents touching internal databases, proprietary code, secrets, internal APIs. Kagenti is intended to be where those agents run.</p>
 <h2 id="the-problem">The Problem<a class="headerlink" href="#the-problem" title="Permanent link">&para;</a></h2>
-<p>Every major tech company is building AI agents. Frameworks and harnesses for creating them are maturing fast. But there is no mature, widely adopted ecosystem designed to take agents from development to production. No standard way to build them, deploy them, secure their identities, govern what they can access, or observe what they're doing at scale.</p>
-<p>This is the same gap Kubernetes filled for containers a decade ago. Agents are the new workload, and they need their own ecosystem — before enterprises start deploying them without one.</p>
-<h2 id="what-the-ecosystem-covers">What the Ecosystem Covers<a class="headerlink" href="#what-the-ecosystem-covers" title="Permanent link">&para;</a></h2>
+<p>Frameworks and harnesses for building agents are maturing fast. But there is no widely adopted platform that gives you identity, governance, sandboxing, and audit for agents on Kubernetes — especially autonomous ones that make their own decisions and run unsupervised.</p>
+<p>This is the same gap Kubernetes filled for containers a decade ago. Agents are the new workload.</p>
+<h2 id="who-its-for">Who it's for<a class="headerlink" href="#who-its-for" title="Permanent link">&para;</a></h2>
+<p><strong>Platform Engineer</strong> — "People are deploying agents. I need to govern them." They need to enforce safety policies, scope permissions, audit what agents do, and isolate tenants.</p>
+<p><strong>AI Engineer</strong> — "I have an agent and I need to run it securely." Their agent needs to touch internal systems that can't leave their network, and cloud platforms can't give them the identity, governance, and audit their company requires.</p>
+<h2 id="differentiating-capabilities">Differentiating capabilities<a class="headerlink" href="#differentiating-capabilities" title="Permanent link">&para;</a></h2>
+<p>What Kagenti is building toward:</p>
+<table>
+<thead>
+<tr>
+<th>Capability</th>
+<th>What it solves</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Workload Identity</strong></td>
+<td>Cryptographic identity for agents via SPIFFE/SPIRE, not just API keys</td>
+</tr>
+<tr>
+<td><strong>Tool Governance</strong></td>
+<td>Deterministic filtering between agents and external services, with audit trails and human-in-the-loop approval</td>
+</tr>
+<tr>
+<td><strong>Guardrails Enforcement</strong></td>
+<td>Content safety and compliance policies for agents making autonomous decisions</td>
+</tr>
+<tr>
+<td><strong>Sandboxing</strong></td>
+<td>Isolated execution environments for agents running arbitrary code</td>
+</tr>
+<tr>
+<td><strong>Authorization &amp; Policy</strong></td>
+<td>Scoped permissions with runtime policy enforcement</td>
+</tr>
+<tr>
+<td><strong>Audit Trail</strong></td>
+<td>Full record of agent actions for compliance</td>
+</tr>
+<tr>
+<td><strong>Workspace Isolation</strong></td>
+<td>Multi-tenant filesystem isolation for self-modifying agents</td>
+</tr>
+<tr>
+<td><strong>State Management</strong></td>
+<td>Persistent state and session management across restarts</td>
+</tr>
+<tr>
+<td><strong>Agent Trust</strong></td>
+<td>Signed agent cards, attestation of capabilities</td>
+</tr>
+<tr>
+<td><strong>Skills Governance</strong></td>
+<td>Skills as versioned, signed, governed artifacts</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-the-ecosystem-covers-today">What the ecosystem covers today<a class="headerlink" href="#what-the-ecosystem-covers-today" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
