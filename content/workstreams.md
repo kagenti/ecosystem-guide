@@ -8,7 +8,6 @@
 | Authorization and Policy Management | Scoped permissions with runtime policy enforcement that limit what an agent can do | **Rong Chang**, Maia Iyer, Alan Cha, Hai Huang |
 | Benchmarking | Agent benchmarking and test infrastructure | **Kelly Abuelsaad** |
 | Guardrails | Content safety and compliance policies for agents making autonomous decisions | **Evaline Ju** |
-| Humr | Exploration of autonomous harness agent requirements — Kubernetes runtime for always-on, self-modifying agents | **Jenna Winkler**, Matous Havlena, Tomas Weiss |
 | Identity Management (Keycloak) | Identity and access management | **Alan Cha**, Maia Iyer |
 | Intent Based Access Control | Intent based access control | **Hai Huang** |
 | MCP Gateway | Unified front door for MCP servers — tool routing, auth, token exchange | **Hai Huang**, Ed Snible |
